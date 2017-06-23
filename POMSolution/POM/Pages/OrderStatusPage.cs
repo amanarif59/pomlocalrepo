@@ -8,5 +8,9 @@ namespace POM.Pages
 {
     class OrderStatusPage
     {
+        public void VerifyOrder()
+        {
+
+        }
     }
 }

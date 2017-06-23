@@ -8,5 +8,9 @@ namespace POM.Pages
 {
     class LaunchPage
     {
+        public LoginPage GoToLoginPage()
+        {
+            return new LoginPage();
+        }
     }
 }

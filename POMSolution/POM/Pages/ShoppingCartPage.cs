@@ -8,5 +8,9 @@ namespace POM.Pages
 {
     class ShoppingCartPage
     {
+        public OrderReviewPage ConfirmOrder()
+        {
+            return new OrderReviewPage();
+        }
     }
 }

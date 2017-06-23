@@ -8,5 +8,9 @@ namespace POM.Pages
 {
     class MyHomePage
     {
+        public ShoppingCartPage BuyProduct()
+        {
+            return new ShoppingCartPage();
+        }
     }
 }

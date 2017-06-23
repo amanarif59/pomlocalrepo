@@ -8,5 +8,9 @@ namespace POM.Pages
 {
     class OrderReviewPage
     {
+        public OrderStatusPage PlaceOrder()
+        {
+            return new OrderStatusPage();
+        }
     }
 }

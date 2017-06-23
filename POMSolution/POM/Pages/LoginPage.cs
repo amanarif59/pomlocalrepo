@@ -8,5 +8,9 @@ namespace POM.Pages
 {
     class LoginPage
     {
+        public MyHomePage DoLogin(string username, string password)
+        {
+            return new MyHomePage();
+        }
     }
 }
