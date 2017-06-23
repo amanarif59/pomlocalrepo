@@ -6,11 +6,19 @@ using System.Threading.Tasks;
 
 namespace POM.Pages
 {
-    class OrderStatusPage
+    public class OrderStatusPage
     {
+        TopMenu topMenu;
+
         public void VerifyOrder()
         {
 
+        }
+
+        public TopMenu GeTTopMenu()
+        {
+            topMenu = new TopMenu();
+            return topMenu;
         }
     }
 }

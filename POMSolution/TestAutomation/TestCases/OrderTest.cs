@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using POM.Pages;
 
 namespace TestAutomation.TestCases
 {
@@ -13,8 +14,13 @@ namespace TestAutomation.TestCases
         [Test]
         public void TestMethod()
         {
-            // TODO: Add your test code here
-            Assert.Pass("Your first passing test");
+            LaunchPage launchPage = new LaunchPage();
+            LoginPage loginPage = launchPage.GoToLoginPage();
+            MyHomePage myHomePage = loginPage.DoLogin("aman123", "testing123");
+            ShoppingCartPage shoppingCartPage = myHomePage.BuyProduct("top");
+            OrderReviewPage orderReviewPage = shoppingCartPage.ConfirmOrder();
+            OrderStatusPage orderStatusPage = orderReviewPage.PlaceOrder();
+            orderStatusPage.GeTTopMenu().LogOut(); // loging out
         }
     }
 }

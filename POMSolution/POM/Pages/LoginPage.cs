@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace POM.Pages
 {
-    class LoginPage
+    public class LoginPage
     {
         public MyHomePage DoLogin(string username, string password)
         {

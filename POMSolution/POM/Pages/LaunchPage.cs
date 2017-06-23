@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace POM.Pages
 {
-    class LaunchPage
+    public class LaunchPage
     {
         public LoginPage GoToLoginPage()
         {

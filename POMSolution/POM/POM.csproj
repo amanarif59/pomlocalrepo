@@ -49,6 +49,7 @@
     <Compile Include="Pages\OrderReviewPage.cs" />
     <Compile Include="Pages\OrderStatusPage.cs" />
     <Compile Include="Pages\ShoppingCartPage.cs" />
+    <Compile Include="Pages\TopMenu.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

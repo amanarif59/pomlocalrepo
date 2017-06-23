@@ -6,11 +6,18 @@ using System.Threading.Tasks;
 
 namespace POM.Pages
 {
-    class MyHomePage
+    public class MyHomePage
     {
-        public ShoppingCartPage BuyProduct()
+        TopMenu topMenu;
+        public ShoppingCartPage BuyProduct(string productName)
         {
             return new ShoppingCartPage();
+        }
+
+        public TopMenu GeTTopMenu()
+        {
+            topMenu = new TopMenu();
+            return topMenu;
         }
     }
 }
