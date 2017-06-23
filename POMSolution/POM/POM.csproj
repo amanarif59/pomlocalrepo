@@ -43,6 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pages\MyHomePage.cs" />
+    <Compile Include="Pages\LaunchPage.cs" />
+    <Compile Include="Pages\LoginPage.cs" />
+    <Compile Include="Pages\OrderReviewPage.cs" />
+    <Compile Include="Pages\OrderStatusPage.cs" />
+    <Compile Include="Pages\ShoppingCartPage.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
